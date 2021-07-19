@@ -1,0 +1,238 @@
+/* section one - */
+body{
+    background-color: #F6F8F9;
+}
+/* header navigation */
+.navigation, ul, .nav-li{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+.nav-li{
+    margin-right: 40px;
+}
+.logo, .header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.header{
+    justify-content: space-between;
+    margin:30px;
+}
+
+/* section */
+.back-img{
+    background-image: url(../img/Image.png);
+    max-width: 580px;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.blocks{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.block-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    max-width: 353px;
+    width: 100%;
+    height: 107px;
+}
+
+/* block head tags */
+.header-text{
+    display: flex;
+    font-size: 32px;
+    color: white;
+    margin-bottom: 44px;
+
+}
+hr .divitor{
+    display: flex;
+    border: 4px solid #FA6980;
+    width: 40px;
+    height: 1px;
+
+}
+.end-text{
+    display: flex;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 44px;
+}
+.avatar{
+    display: flex;
+    width: 40px;
+    height: 40px;
+
+}
+.left, .right{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 580px;
+    width: 100%;
+    height: 500px;
+
+}
+.right{
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+/* left section */
+
+.type-info{
+    display: flex;
+    max-width: 580px;
+    width: 100%;
+    height: 500px;
+    justify-content: space-around;
+    flex-direction: column;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    justify-content: center;
+    align-items: left;
+    max-width: 360px;
+    width: 100%;
+    height: 40px;
+}
+.blank, .blank-1{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 35px;
+    font-size: 16px;
+}
+input{
+    margin-bottom: 39px;
+    height: 40px;
+}
+label{
+    padding-bottom: 13px;
+}
+.btn{
+    background-color: #FA6980;
+    width: 134px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* section two */
+.section-two{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.block{
+    display: flex;
+    margin: 0 auto;
+    height: 210px;
+    align-items:center;
+    justify-content: space-around;
+    
+}
+.one-text{
+    width: 324px;
+    height: 53px;
+    font-size: 24px;
+    
+}
+.text-two{
+    width: 357px;
+    height: 170px;
+    font-size: 14px;
+    color: #CBD0D3;
+
+}
+.fa-clock{
+    font-size: 16px;
+    color: #CBD0D3;
+}
+.block-two, .block-three, .block-one{
+    max-width: 357px;
+    width: 100%;
+    height: 170px;
+    justify-content: space-around;
+    align-items: left;
+    text-align: left;
+}
+
+/* footer */
+
+.footer{
+    background-color: #A6ADB4;
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.columns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.column-one, .column-two, .column-three{
+    margin-right: 50px;
+    color: #CBD0D3;
+    flex-direction: column;
+}
+
+.blank-2{
+    margin-left: 225px;
+    display: flex;
+    flex-direction: column;
+    color: #CBD0D3;
+}
+.touch{
+    display: flex;
+    background-color: #A6ADB4;
+    border-color:  #CBD0D3;
+}
+.lists{
+    display: flex;
+    flex-direction: row;
+}
+.list{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.hr{
+    width: 200px;
+}
+
+
