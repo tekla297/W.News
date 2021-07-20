@@ -134,9 +134,15 @@ form{
     margin-bottom: 35px;
     font-size: 16px;
 }
+select{
+    height: 40px;
+    border: 1px solid #CBD0D3;
+}
+
 input{
     margin-bottom: 39px;
     height: 40px;
+    border: 1px solid #CBD0D3;
 }
 label{
     padding-bottom: 13px;
@@ -193,8 +199,10 @@ label{
     padding: 5px;
     font-size: 14px;
     color: #CBD0D3;
+    display: flex;
+    flex-wrap: wrap;
 }
-.fa-clock{
+.fa-clock, .clock{
     font-size: 16px;
     color: #CBD0D3;
     margin-top: 33px;
@@ -206,6 +214,7 @@ label{
     justify-content: space-around;
     align-items: left;
     text-align: left;
+    margin-right: 55px;
 }
 
 /* footer */

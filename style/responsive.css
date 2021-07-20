@@ -7,7 +7,7 @@
         align-items: center; 
         text-align: center;
         margin: 8px;
-        width: 380px;
+        width: 430px;
     }
     .avatar{
         display: none;
@@ -27,7 +27,7 @@
 @media (max-width: 767px){
     .section-two
     {
-       height: 300px;
+       height: 430px;
         
     }
 }
@@ -41,6 +41,19 @@
         align-items: center;
         height: 600px;
         background-color: #828487;
+    }
+    .blank-2{
+        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .touch{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
     
 }
